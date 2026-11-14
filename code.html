@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"on-background":"#071d2c","on-tertiary-fixed-variant":"#005047","tertiary-fixed":"#62fae3","primary":"#001b31","on-surface-variant":"#43474d","on-secondary":"#ffffff","inverse-on-surface":"#e6f2ff","secondary-fixed":"#87f4f3","on-primary-fixed-variant":"#2d4964","on-secondary-container":"#006e6e","tertiary-fixed-dim":"#3cddc7","secondary":"#006a6a","primary-fixed":"#cfe5ff","tertiary":"#001e1a","on-primary-fixed":"#001d34","surface-bright":"#f6f9ff","on-secondary-fixed":"#002020","surface-container":"#e0f0ff","error":"#ba1a1a","on-surface":"#071d2c","surface-tint":"#46617d","on-primary":"#ffffff","on-error":"#ffffff","outline-variant":"#c3c7ce","primary-container":"#12304a","surface-container-low":"#ebf5ff","on-primary-container":"#7d98b7","surface":"#f6f9ff","error-container":"#ffdad6","secondary-fixed-dim":"#69d7d7","background":"#f6f9ff","inverse-surface":"#1e3241","surface-variant":"#d0e5f9","surface-container-high":"#d6ebff","outline":"#73777e","on-tertiary-fixed":"#00201c","surface-container-highest":"#d0e5f9","secondary-container":"#84f1f1","on-tertiary":"#ffffff","on-secondary-fixed-variant":"#004f50","surface-dim":"#c8ddf0","surface-container-lowest":"#ffffff","primary-fixed-dim":"#adc9ea","tertiary-container":"#00352e","on-error-container":"#93000a","inverse-primary":"#adc9ea","on-tertiary-container":"#00a897"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-mobile":"1rem","space-lg":"1.5rem","margin":"3rem","space-sm":"0.5rem","gutter":"1.5rem","space-xl":"2.5rem","space-md":"1rem","margin-mobile":"1.25rem","space-xs":"0.25rem"},"fontFamily":{"body-md":["Inter"],"headline-lg-mobile":["Inter"],"body-lg":["Inter"],"headline-lg":["Inter"],"headline-md":["Inter"],"display":["Inter"],"display-mobile":["Inter"],"label-sm":["Inter"],"label-md":["Inter"],"body-sm":["Inter"],"title-md":["Inter"],"headline-sm":["Inter"]},"fontSize":{"body-md":["1rem",{"lineHeight":"1.5rem","fontWeight":"400"}],"headline-lg-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.015em","fontWeight":"700"}],"body-lg":["1.125rem",{"lineHeight":"1.75rem","fontWeight":"400"}],"headline-lg":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-md":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.015em","fontWeight":"600"}],"display":["3.5rem",{"lineHeight":"4rem","letterSpacing":"-0.025em","fontWeight":"700"}],"display-mobile":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.04em","fontWeight":"600"}],"label-md":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"500"}],"body-sm":["0.875rem",{"lineHeight":"1.25rem","fontWeight":"400"}],"title-md":["1.125rem",{"lineHeight":"1.5rem","fontWeight":"600"}],"headline-sm":["1.25rem",{"lineHeight":"1.75rem","letterSpacing":"-0.01em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1360px] mx-auto px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Abhishekh Healthcare Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrDTD6ZvrrGQU8twM6uVDQYqTQTBKdwYzX_nwh_lXxkOhyzd_YpeGCgF2Z7DdfKH0yUzdrXoSTZSBwZyeWVZ1CwDa_xMn346q21ok-JYqn0IKJOLPsksLAoGcqB630Y6Z_K2snlCULgYQGmdL16WORne9Z6OW2lt3sl5fTjX5_8cvQqj4pG5Jf8tU5OLeJYDfMxYirCFN4YbiSLQhESVSrm34aZT8raXiKwWHV46Vkc-"/><span class="font-title-md text-title-md text-primary tracking-tight font-semibold">Abhishekh Healthcare Consultancy</span></div><nav class="hidden xl:flex items-center gap-space-sm" data-active-classes="bg-surface-container text-primary font-title-md rounded-lg"><a aria-current="page" class="px-space-md py-space-xs transition-colors bg-surface-container text-primary font-title-md rounded-lg" data-path="home" href="#">Home</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low rounded-lg transition-colors" data-path="about-us" href="#">About Us</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low rounded-lg transition-colors" data-path="services" href="#">Services</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low rounded-lg transition-colors" data-path="why-choose-us" href="#">Why Choose Us</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low rounded-lg transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center bg-primary-container text-on-primary font-label-md text-label-md px-space-lg py-space-sm rounded-lg hover:bg-primary transition-all duration-200 shadow-sm" data-path="contact" href="#"><span class="flex items-center gap-space-xs"><span class="w-2 h-2 rounded-full bg-secondary-container"></span>Get Consultation</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- ========================================== -->
+<!-- 1. HERO SECTION                            -->
+<!-- ========================================== -->
+<section class="relative w-full overflow-hidden bg-gradient-to-b from-surface-container-low/40 to-surface py-12 md:py-20 lg:py-24">
+<!-- Ambient backdrops -->
+<div aria-hidden="true" class="pointer-events-none absolute -top-28 right-0 h-96 w-96 rounded-full bg-secondary-container/20 blur-3xl"></div>
+<div aria-hidden="true" class="pointer-events-none absolute -bottom-24 left-1/4 h-80 w-80 rounded-full bg-primary-fixed/30 blur-3xl"></div>
+<div class="max-w-[1360px] mx-auto px-gutter relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Left Column: Copy & Actions -->
+<div class="lg:col-span-7 flex flex-col items-start space-y-6">
+<!-- Trust Badge Label -->
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-lowest shadow-sm">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">
+              Your Trusted Healthcare Consultancy Partner
+            </span>
+</div>
+<!-- Main Hero Heading -->
+<h1 class="font-display text-display text-primary tracking-tight">
+            Guiding You Towards Better Healthcare Decisions.
+          </h1>
+<!-- Supporting Narrative -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+            Abhishekh Healthcare Consultancy delivers strategic advisory, operational excellence, and tailored guidance to healthcare providers, administrators, and organizations seeking sustainable growth and regulatory clarity.
+          </p>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-4 pt-2 w-full sm:w-auto">
+<a class="inline-flex items-center justify-center px-8 py-3.5 rounded-lg bg-primary text-on-primary font-label-md text-label-md shadow-md hover:bg-primary-container transition-all duration-200" href="#contact">
+<span>Get in Touch</span>
+<span class="material-symbols-outlined ml-2 text-base">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center px-7 py-3.5 rounded-lg bg-surface-container-lowest text-primary font-label-md text-label-md shadow-sm hover:bg-surface-container transition-all duration-200" href="#services">
+<span class="material-symbols-outlined mr-2 text-secondary text-lg">medical_services</span>
+<span>Explore Our Services</span>
+</a>
+</div>
+<!-- Trust Credential Badges -->
+<div class="pt-6 mt-4 w-full">
+<div class="flex flex-wrap items-center gap-y-3 gap-x-6 text-on-surface-variant font-label-md text-label-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-xl">verified</span>
+<span class="font-semibold text-primary">500+</span> Advisory Engagements
+              </div>
+<span class="hidden sm:inline text-outline-variant font-light">•</span>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-xl">star</span>
+<span class="font-semibold text-primary">98%</span> Client Satisfaction
+              </div>
+<span class="hidden sm:inline text-outline-variant font-light">•</span>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-xl">workspace_premium</span>
+<span class="font-semibold text-primary">Certified</span> Healthcare Advisors
+              </div>
+</div>
+</div>
+</div>
+<!-- Right Column: Visual Composition -->
+<div class="lg:col-span-5 relative">
+<div class="relative mx-auto max-w-md lg:max-w-none">
+<!-- Backing geometric highlight -->
+<div aria-hidden="true" class="absolute inset-0 bg-secondary/10 rounded-2xl transform rotate-2 scale-105"></div>
+<!-- Primary Photo Card -->
+<div class="relative bg-surface-container-lowest rounded-2xl overflow-hidden shadow-xl">
+<img class="w-full h-[420px] object-cover" data-alt="A professional healthcare boardroom strategy meeting with executive consultants and senior hospital leadership analyzing clinical performance charts on laptops in a modern sunlit corporate office with skyline view." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtZIB-dWTX-IXfegCFH5fjZiLIjYa1-2fEieMxpx2_2ZLOOu46m2UtD__wBa_fkNXAF9KmnQeeF2r5Ia5k6JmM-zGeJn0XaLQftgiNkxA4B94zhgVxhRad4cPNxxZh7A0VnVyJ5RLXIEkNVpNJYo1Pftk3J1dMfXUJUQjrmFo7VidA_ua3Rxjf9dj5Y0LtGHy4n5NALkZMZ9NETTqvpLigNmr07Ttt61ZOUowNu54"/>
+<!-- Subtle Scrim -->
+<div class="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent"></div>
+<!-- In-image label indicator -->
+<div class="absolute bottom-4 left-4 right-4 p-3 bg-surface-container-lowest/95 backdrop-blur-md rounded-xl flex items-center justify-between shadow-md">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-xl">insights</span>
+</div>
+<div>
+<p class="font-title-md text-title-md text-primary leading-tight">Healthcare Strategy & Advisory</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Validated clinical roadmap</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-secondary text-2xl">check_circle</span>
+</div>
+</div>
+<!-- Floating Analytics Badge -->
+<div class="absolute -top-6 -left-6 hidden sm:flex items-center gap-3 p-4 bg-surface-container-lowest rounded-xl shadow-lg">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-2xl">trending_up</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm uppercase text-outline">Clinical Efficiency</p>
+<p class="font-headline-sm text-headline-sm text-primary font-bold">+34% Operational Gain</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 2. TRUST HIGHLIGHTS SECTION                -->
+<!-- ========================================== -->
+<section class="w-full py-12 bg-surface-container-low/60">
+<div class="max-w-[1360px] mx-auto px-gutter">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Highlight 1 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined text-2xl">psychology</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Professional Guidance</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Experienced healthcare strategists delivering data-backed roadmaps tailored to hospital C-suites and clinical administrators.
+          </p>
+</div>
+<!-- Highlight 2 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined text-2xl">diversity_3</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Client-Centric Approach</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Personalized consultation engineered around your distinct operational bottlenecks, culture, and patient care objectives.
+          </p>
+</div>
+<!-- Highlight 3 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined text-2xl">support_agent</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Reliable Support</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Consistent, responsive advisory at every operational phase—from feasibility planning through post-accreditation stability.
+          </p>
+</div>
+<!-- Highlight 4 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined text-2xl">visibility</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Transparent Communication</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Clear executive reporting, auditable deliverables, and milestone-driven performance reviews with zero ambiguities.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 3. ABOUT US SECTION                        -->
+<!-- ========================================== -->
+<section class="w-full py-16 lg:py-24 bg-surface" id="about">
+<div class="max-w-[1360px] mx-auto px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+<!-- Left Column: Visual & Badge -->
+<div class="lg:col-span-6 relative">
+<div class="relative rounded-2xl overflow-hidden shadow-lg bg-surface-container">
+<img class="w-full h-[480px] object-cover" data-alt="Multicultural group of healthcare consultants and doctors having a strategic boardroom discussion with documents, tablets and analytical dashboards in a pristine corporate health plaza conference room." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGxBLGV8SnUzrQxbfC-47NWlXu8fFiszrE1tvXRIWtQcSjnd45VOHRHCDT0lftrgF2Sltd3Ch3J4hyC_VRvxN64TDk0D-th_zmxxZUprkAPEG7sMc2Mo4KKcx7j7-X0OWlH02gU0fRjoaBj2WF8SAmAGHrZ6MhiVrbd5EZ_HAG9G2xg7DazjORVvEfYJNa2U7av0GbRYX_C5TmcgkILN8lYwJ44-tDM3sPTLuWBA8"/>
+<div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
+<!-- Overlay Stat Card -->
+<div class="absolute bottom-6 left-6 right-6 p-5 rounded-xl bg-surface-container-lowest/95 backdrop-blur-md shadow-md flex items-center gap-4">
+<div class="w-14 h-14 rounded-lg bg-primary-container text-on-primary flex flex-col items-center justify-center shrink-0">
+<span class="font-headline-md text-headline-md leading-none font-bold">15+</span>
+<span class="text-[10px] tracking-tight uppercase">Years</span>
+</div>
+<div>
+<p class="font-title-md text-title-md text-primary font-semibold">Combined Advisory Experience</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Guiding institutional healthcare transformation across public and private systems.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Narrative & Values -->
+<div class="lg:col-span-6 flex flex-col space-y-6">
+<div class="space-y-2">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest font-semibold">
+              About Abhishekh Healthcare Consultancy
+            </span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+              Committed to Elevating Healthcare Standards & Operational Excellence
+            </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            We partner with healthcare institutions, clinic networks, and health-tech enterprises to solve complex operational challenges, navigate evolving compliance landscapes, and optimize resource allocation.
+          </p>
+<!-- Mission & Vision Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+<div class="p-5 rounded-xl bg-surface-container-low shadow-sm">
+<div class="flex items-center gap-2 text-secondary mb-2">
+<span class="material-symbols-outlined text-xl">flag</span>
+<h4 class="font-title-md text-title-md text-primary">Our Mission</h4>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Empowering healthcare leaders with actionable strategies that improve care delivery, compliance resilience, and organizational viability.
+              </p>
+</div>
+<div class="p-5 rounded-xl bg-surface-container-low shadow-sm">
+<div class="flex items-center gap-2 text-secondary mb-2">
+<span class="material-symbols-outlined text-xl">radar</span>
+<h4 class="font-title-md text-title-md text-primary">Our Vision</h4>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                To be the most trusted healthcare advisory partner recognized globally for integrity, innovation, and measurable patient impact.
+              </p>
+</div>
+</div>
+<!-- Action -->
+<div class="pt-2">
+<a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary hover:text-primary transition-colors font-semibold group" href="#services">
+<span>Learn more about our advisory methodology</span>
+<span class="material-symbols-outlined text-lg transition-transform duration-200 group-hover:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 4. SERVICES SECTION                        -->
+<!-- ========================================== -->
+<section class="w-full py-16 lg:py-24 bg-surface-container-low/40" id="services">
+<div class="max-w-[1360px] mx-auto px-gutter">
+<!-- Section Header -->
+<div class="text-center max-w-2xl mx-auto mb-14 space-y-3">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-wider font-semibold">Specialized Practice Areas</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">Tailored Healthcare Advisory Services</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Strategic consulting frameworks designed for sustainable healthcare transformation and regulatory agility.
+        </p>
+</div>
+<!-- Services Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+<!-- Card 1 -->
+<div class="group bg-surface-container-lowest p-7 rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container text-secondary flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors duration-200">
+<span class="material-symbols-outlined text-2xl">account_tree</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Healthcare Strategic Planning</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Comprehensive long-term organizational roadmaps, growth feasibility analysis, regional network scaling, and governance advisory.
+            </p>
+</div>
+<div class="pt-6">
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-secondary font-semibold group-hover:text-primary transition-colors" href="#contact">
+<span>Request Advisory</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group bg-surface-container-lowest p-7 rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container text-secondary flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors duration-200">
+<span class="material-symbols-outlined text-2xl">vital_signs</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Clinical Operations Optimization</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Streamlining clinical workflows, inpatient capacity management, bed-turnover optimization, and service delivery protocols.
+            </p>
+</div>
+<div class="pt-6">
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-secondary font-semibold group-hover:text-primary transition-colors" href="#contact">
+<span>Request Advisory</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group bg-surface-container-lowest p-7 rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container text-secondary flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors duration-200">
+<span class="material-symbols-outlined text-2xl">policy</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Regulatory Compliance & Accreditation</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Guidance through healthcare statutory frameworks, JCI/NABH standards adherence, clinical risk mitigation, and audit readiness.
+            </p>
+</div>
+<div class="pt-6">
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-secondary font-semibold group-hover:text-primary transition-colors" href="#contact">
+<span>Request Advisory</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="group bg-surface-container-lowest p-7 rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container text-secondary flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors duration-200">
+<span class="material-symbols-outlined text-2xl">health_and_safety</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Healthcare Technology Advisory</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Strategic evaluation and integration guidance for hospital information systems (HIS), telehealth architectures, and interoperability.
+            </p>
+</div>
+<div class="pt-6">
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-secondary font-semibold group-hover:text-primary transition-colors" href="#contact">
+<span>Request Advisory</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="group bg-surface-container-lowest p-7 rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container text-secondary flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors duration-200">
+<span class="material-symbols-outlined text-2xl">payments</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Financial Advisory & Resource Planning</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Capital allocation models, revenue cycle management guidance, operational cost benchmarking, and investment feasibility studies.
+            </p>
+</div>
+<div class="pt-6">
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-secondary font-semibold group-hover:text-primary transition-colors" href="#contact">
+<span>Request Advisory</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="group bg-surface-container-lowest p-7 rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container text-secondary flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors duration-200">
+<span class="material-symbols-outlined text-2xl">verified_user</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Quality Management & Patient Safety</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Establishing rigorous clinical audit benchmarks, incident management systems, patient-reported outcome measures, and safety culture.
+            </p>
+</div>
+<div class="pt-6">
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-secondary font-semibold group-hover:text-primary transition-colors" href="#contact">
+<span>Request Advisory</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 5. WHY CHOOSE US SECTION                   -->
+<!-- ========================================== -->
+<section class="w-full py-16 lg:py-24 bg-surface">
+<div class="max-w-[1360px] mx-auto px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-16">
+<div class="lg:col-span-7 space-y-4">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-wider font-semibold">Institutional Trust</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+            Why Healthcare Organizations Partner With Us
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Bridging clinical realities with administrative strategy through proven governance models and relentless ethical standards.
+          </p>
+</div>
+<!-- Quick Stats summary tile -->
+<div class="lg:col-span-5 flex justify-start lg:justify-end">
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-md w-full max-w-sm">
+<div class="flex items-center justify-between pb-3">
+<span class="font-label-sm text-label-sm uppercase text-outline">Accreditation Success Rate</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">Industry Peak</span>
+</div>
+<p class="font-display text-display text-primary leading-tight font-bold">99.4%</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant pt-2">First-cycle accreditation pass across hospital and clinical network clients.</p>
+</div>
+</div>
+</div>
+<!-- 4-Card Pillar Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="bg-surface-container-low p-6 rounded-xl shadow-sm hover:shadow-md transition-all duration-200 space-y-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary font-semibold">01</div>
+<h3 class="font-title-md text-title-md text-primary font-semibold">Personalized Approach</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Every engagement is configured specifically for your institution’s unique patient demographics, regional policies, and clinical capacities.
+          </p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-xl shadow-sm hover:shadow-md transition-all duration-200 space-y-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary font-semibold">02</div>
+<h3 class="font-title-md text-title-md text-primary font-semibold">Professional Expertise</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Cross-disciplinary advisors with extensive backgrounds in medical administration, clinical governance, and executive healthcare leadership.
+          </p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-xl shadow-sm hover:shadow-md transition-all duration-200 space-y-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary font-semibold">03</div>
+<h3 class="font-title-md text-title-md text-primary font-semibold">Reliable Guidance</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Tested methodologies and risk-mitigated decision frameworks to safeguard compliance and ensure operational continuity.
+          </p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-xl shadow-sm hover:shadow-md transition-all duration-200 space-y-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary font-semibold">04</div>
+<h3 class="font-title-md text-title-md text-primary font-semibold">Commitment to Quality</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Relentless focus on patient safety benchmarks, measurable clinical outcomes, and sustainable return on healthcare investments.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 6. OUR PROCESS                             -->
+<!-- ========================================== -->
+<section class="w-full py-16 lg:py-24 bg-surface-container-low/50">
+<div class="max-w-[1360px] mx-auto px-gutter">
+<div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-wider font-semibold">Methodology</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">Our Structured Consultation Process</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">A disciplined 4-stage advisory blueprint that turns organizational complexity into structured execution.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 relative">
+<!-- Step 1 -->
+<div class="relative bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-sm text-label-sm uppercase tracking-wider px-2 py-1 rounded bg-surface-container text-primary font-semibold">Step 01</span>
+<span class="material-symbols-outlined text-secondary text-2xl">mark_email_read</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Initial Enquiry</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Reach out to discuss your institution's specific challenges, regulatory targets, and organizational vision in complete confidentiality.
+            </p>
+</div>
+<div class="mt-6 flex items-center text-secondary text-sm font-medium">
+<span>Stage 1 Completed</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="relative bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-sm text-label-sm uppercase tracking-wider px-2 py-1 rounded bg-surface-container text-primary font-semibold">Step 02</span>
+<span class="material-symbols-outlined text-secondary text-2xl">analytics</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Understanding Requirements</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              In-depth diagnostic assessment of current clinical operations, governance frameworks, and critical operational friction points.
+            </p>
+</div>
+<div class="mt-6 flex items-center text-secondary text-sm font-medium">
+<span>Diagnostic Audit</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="relative bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-sm text-label-sm uppercase tracking-wider px-2 py-1 rounded bg-surface-container text-primary font-semibold">Step 03</span>
+<span class="material-symbols-outlined text-secondary text-2xl">clinical_notes</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Consultation & Guidance</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Delivery of bespoke strategic recommendations, compliance roadmaps, operational blueprints, and timeline-oriented milestones.
+            </p>
+</div>
+<div class="mt-6 flex items-center text-secondary text-sm font-medium">
+<span>Actionable Delivery</span>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="relative bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-sm text-label-sm uppercase tracking-wider px-2 py-1 rounded bg-surface-container text-primary font-semibold">Step 04</span>
+<span class="material-symbols-outlined text-secondary text-2xl">handshake</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Continued Support</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Ongoing advisory oversight, milestone tracking, regulatory review updates, and adaptable support to guarantee sustained outcomes.
+            </p>
+</div>
+<div class="mt-6 flex items-center text-secondary text-sm font-medium">
+<span>Sustained Partnership</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 7. CLIENT TESTIMONIALS                     -->
+<!-- ========================================== -->
+<section class="w-full py-16 lg:py-24 bg-surface">
+<div class="max-w-[1360px] mx-auto px-gutter">
+<div class="text-center max-w-xl mx-auto mb-14 space-y-3">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-wider font-semibold">Executive Endorsements</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">What Our Clients Say</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Measurable success shared by clinical leaders and health network executives.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+<!-- Testimonial 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col justify-between">
+<div class="space-y-4">
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic leading-relaxed">
+              "Abhishekh Healthcare Consultancy transformed our multi-facility clinical audit prep. Their strategic roadmap halved our accreditation preparation cycle while keeping our department heads fully aligned."
+            </p>
+</div>
+<div class="pt-6 mt-6 flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary font-bold">
+              RO
+            </div>
+<div>
+<p class="font-title-md text-title-md text-primary font-semibold">Dr. Marcus Vance</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Director of Operations, Regional Health Network</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col justify-between">
+<div class="space-y-4">
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic leading-relaxed">
+              "Their team guided our specialty ambulatory centers through complex compliance reforms seamlessly. Their financial advisory and bed-flow restructuring had an immediate positive impact on our margin."
+            </p>
+</div>
+<div class="pt-6 mt-6 flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary font-bold">
+              SC
+            </div>
+<div>
+<p class="font-title-md text-title-md text-primary font-semibold">Elena Rostova, MHA</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Founder, Specialty Clinic Group</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col justify-between">
+<div class="space-y-4">
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic leading-relaxed">
+              "In an industry crowded with generic consultants, Abhishekh Healthcare brings rare clinical clarity and deep executive acumen. They act as a genuine extension of our leadership team."
+            </p>
+</div>
+<div class="pt-6 mt-6 flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary font-bold">
+              MH
+            </div>
+<div>
+<p class="font-title-md text-title-md text-primary font-semibold">David K. Chen, MD</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Chief Medical Administrator, Metro Health Alliance</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 8. CONTACT & CONSULTATION ENQUIRY          -->
+<!-- ========================================== -->
+<section class="w-full py-16 lg:py-24 bg-surface-container-low/70" id="contact">
+<div class="max-w-[1360px] mx-auto px-gutter">
+<div class="text-center max-w-xl mx-auto mb-14 space-y-3">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-wider font-semibold">Direct Engagement</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">Start Your Consultation Today</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Connect with our senior healthcare advisors to evaluate your institutional objectives.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-stretch">
+<!-- Left: Deep Navy Contact Information Card -->
+<div class="lg:col-span-5 bg-primary text-on-primary p-8 lg:p-10 rounded-2xl shadow-xl flex flex-col justify-between space-y-8">
+<div class="space-y-6">
+<div>
+<span class="px-2.5 py-1 rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase">Healthcare Advisory Headquarters</span>
+<h3 class="font-headline-md text-headline-md text-on-primary mt-3">Abhishekh Healthcare Consultancy</h3>
+<p class="font-body-sm text-body-sm text-on-primary-container mt-2">
+                Delivering tailored strategic advisory and governance solutions for forward-thinking healthcare leadership.
+              </p>
+</div>
+<div class="space-y-4 pt-4">
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-lg bg-primary-container text-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-xl">phone_in_talk</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm text-on-primary-container uppercase">Call Direct</p>
+<p class="font-title-md text-title-md font-semibold text-on-primary">+1 (800) 555-0199</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-lg bg-primary-container text-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-xl">mark_email_unread</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm text-on-primary-container uppercase">Advisory Inquiries</p>
+<p class="font-title-md text-title-md font-semibold text-on-primary">contact@abhishekhhealth.com</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-lg bg-primary-container text-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-xl">apartment</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm text-on-primary-container uppercase">Executive Office</p>
+<p class="font-body-md text-body-md text-on-primary">Suite 400, Healthcare Tower, Medical District, NY 10016</p>
+</div>
+</div>
+</div>
+</div>
+<!-- WhatsApp Primary CTA button -->
+<div class="pt-6">
+<a class="w-full inline-flex items-center justify-center gap-3 px-6 py-4 rounded-xl bg-secondary text-on-secondary font-label-md text-label-md hover:bg-secondary/90 transition-all shadow-md" href="https://wa.me/18005550199" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-xl">chat</span>
+<span class="font-semibold">Chat on WhatsApp Directly</span>
+</a>
+</div>
+</div>
+<!-- Right: Consultation Enquiry Form -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-8 lg:p-10 rounded-2xl shadow-md">
+<form class="space-y-6" id="consultation-form" onsubmit="event.preventDefault(); document.getElementById('form-status').classList.remove('hidden'); this.reset();">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<!-- Full Name -->
+<div class="space-y-1.5">
+<label class="block font-label-md text-label-md text-primary font-semibold" for="fullName">Full Name *</label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-low text-primary font-body-md text-body-md placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-secondary/50 transition-all" id="fullName" placeholder="Dr. Jane Smith" required="" type="text"/>
+</div>
+<!-- Phone Number -->
+<div class="space-y-1.5">
+<label class="block font-label-md text-label-md text-primary font-semibold" for="phone">Phone Number *</label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-low text-primary font-body-md text-body-md placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-secondary/50 transition-all" id="phone" placeholder="+1 (555) 000-0000" required="" type="tel"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<!-- Email Address -->
+<div class="space-y-1.5">
+<label class="block font-label-md text-label-md text-primary font-semibold" for="email">Work Email Address *</label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-low text-primary font-body-md text-body-md placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-secondary/50 transition-all" id="email" placeholder="jsmith@healthnetwork.com" required="" type="email"/>
+</div>
+<!-- Subject / Area -->
+<div class="space-y-1.5">
+<label class="block font-label-md text-label-md text-primary font-semibold" for="subject">Advisory Area of Interest</label>
+<select class="w-full px-4 py-3 rounded-lg bg-surface-container-low text-primary font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-secondary/50 transition-all" id="subject">
+<option value="strategic">Healthcare Strategic Planning</option>
+<option value="clinical">Clinical Operations Optimization</option>
+<option value="compliance">Regulatory Compliance & Accreditation</option>
+<option value="tech">Healthcare Technology Advisory</option>
+<option value="financial">Financial Advisory & Resource Planning</option>
+<option value="quality">Quality Management & Safety</option>
+</select>
+</div>
+</div>
+<!-- Message Area -->
+<div class="space-y-1.5">
+<label class="block font-label-md text-label-md text-primary font-semibold" for="message">Institution Requirements & Scope</label>
+<textarea class="w-full px-4 py-3 rounded-lg bg-surface-container-low text-primary font-body-md text-body-md placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-secondary/50 transition-all resize-none" id="message" placeholder="Briefly describe your healthcare organization's current priorities, facility scale, and expected consultation timeline..." rows="4"></textarea>
+</div>
+<!-- Success Alert Notification -->
+<div class="hidden p-4 rounded-lg bg-secondary-container text-on-secondary-container font-label-md text-label-md flex items-center gap-3" id="form-status">
+<span class="material-symbols-outlined text-xl">check_circle</span>
+<span>Thank you. Your consultation request has been received. A senior advisor will contact you within 24 hours.</span>
+</div>
+<!-- Submit Button -->
+<div class="pt-2">
+<button class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-lg bg-primary text-on-primary font-label-md text-label-md shadow-md hover:bg-primary-container transition-all" type="submit">
+<span>Submit Consultation Enquiry</span>
+<span class="material-symbols-outlined text-lg">send</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low py-space-xl"><div class="max-w-[1360px] mx-auto px-gutter"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl mb-space-xl"><div class="lg:col-span-2 space-y-space-md"><div class="flex items-center gap-space-sm"><img alt="Abhishekh Healthcare Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrDTD6ZvrrGQU8twM6uVDQYqTQTBKdwYzX_nwh_lXxkOhyzd_YpeGCgF2Z7DdfKH0yUzdrXoSTZSBwZyeWVZ1CwDa_xMn346q21ok-JYqn0IKJOLPsksLAoGcqB630Y6Z_K2snlCULgYQGmdL16WORne9Z6OW2lt3sl5fTjX5_8cvQqj4pG5Jf8tU5OLeJYDfMxYirCFN4YbiSLQhESVSrm34aZT8raXiKwWHV46Vkc-"/><span class="font-title-md text-title-md text-primary font-semibold">Abhishekh Healthcare Consultancy</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">Providing strategic, compliant, and client-centric healthcare advisory solutions to help organizations navigate complex healthcare environments.</p><div class="flex items-center gap-space-sm pt-space-xs"><a aria-label="Corporate Network" class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-primary-container hover:text-on-primary transition-colors" href="#"><span class="material-symbols-outlined text-[16px]">corporate_fare</span></a><a aria-label="Public Health Channel" class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-primary-container hover:text-on-primary transition-colors" href="#"><span class="material-symbols-outlined text-[16px]">public</span></a><a aria-label="Direct Inquiries" class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-primary-container hover:text-on-primary transition-colors" href="#"><span class="material-symbols-outlined text-[16px]">forum</span></a></div></div><div class="space-y-space-sm"><h4 class="font-headline-sm text-headline-sm text-primary">Quick Links</h4><ul class="space-y-space-xs"><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="home" href="#">Home</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="about-us" href="#">About Us</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="services" href="#">Services</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="why-choose-us" href="#">Why Choose Us</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="contact" href="#">Contact</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="terms-of-service" href="#">Terms of Service</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-headline-sm text-headline-sm text-primary">Advisory Services</h4><ul class="space-y-space-xs"><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="services" href="#">Clinical Operations Strategy</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="services" href="#">Regulatory & Accreditation Compliance</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="services" href="#">Hospital Infrastructure Planning</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="services" href="#">Digital Health Transformation</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="services" href="#">Revenue Cycle Optimization</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-headline-sm text-headline-sm text-primary">Contact Details</h4><ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-[18px] text-secondary mt-0.5">phone_in_talk</span><span>+1 (800) 427-4475</span></li><li class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-[18px] text-secondary mt-0.5">mail</span><span>advisory@abhishekhhealth.com</span></li><li class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-[18px] text-secondary mt-0.5">location_on</span><span>Corporate Medical Plaza, 500 Healthcare Way, Suite 800</span></li><li class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-[18px] text-secondary mt-0.5">chat</span><span>WhatsApp: +1 (800) 427-4476</span></li></ul></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-sm text-on-surface-variant font-label-sm text-label-sm"><p>© 2025 Abhishekh Healthcare Consultancy. All rights reserved.</p><p class="text-outline">Strategic Healthcare Navigation & Advisory</p></div></div></footer></body></html>
