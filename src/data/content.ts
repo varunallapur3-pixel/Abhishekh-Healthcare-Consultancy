@@ -191,7 +191,7 @@ export const siteConfig: BusinessConfig = {
   shortName: "Abhishekh Health",
   tagline: "Professional Healthcare Navigation & Advisory Guidance",
   officialDescription: "Abhishekh Healthcare Consultancy aims to provide professional guidance and support for healthcare-related requirements.",
-  logoUrl: "https://lh3.googleusercontent.com/aida/ALJJyrDTD6ZvrrGQU8twM6uVDQYqTQTBKdwYzX_nwh_lXxkOhyzd_YpeGCgF2Z7DdfKH0yUzdrXoSTZSBwZyeWVZ1CwDa_xMn346q21ok-JYqn0IKJOLPsksLAoGcqB630Y6Z_K2snlCULgYQGmdL16WORne9Z6OW2lt3sl5fTjX5_8cvQqj4pG5Jf8tU5OLeJYDfMxYirCFN4YbiSLQhESVSrm34aZT8raXiKwWHV46Vkc-",
+  logoUrl: "/logo.png",
   
   // VERIFIED BUSINESS CONTACT NUMBER (Active & Working)
   contact: {
